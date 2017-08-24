@@ -1,12 +1,3 @@
-provider "aws"{
-        region   = "us-east-1"
-    assume_role{
-        role_arn = "arn:aws:iam::738241793565:role/jenkinsprod"
-}
-    }
-
-
-
 # This configuration is to create EC2 instance, to perform basic configuration.
 # Intended to use in build image process. Making ami
 
